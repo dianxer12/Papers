@@ -21,11 +21,12 @@ npm install babel-cli
 3. 下载对应的Babel preset 例如Preset-2015
 ```xml
 npm install babel-preset-2015
-```xml
+```
 
 - 编译代码至dist目录，并随时监视lib目录下所有文件的变化，动态编译
 - inline表示不生成.map文件，在新生成的js文件中添加链接
 - 代码1 
+
 ```xml 
 babel lib --out-dir dist --watch --source-maps inline
 ```
