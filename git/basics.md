@@ -31,4 +31,4 @@ git diff会列出详细信息
 git本身没有专门的文件改名的命令，但是可以通过两种方法做到
 1. git mv filefrom fileto
 2. mv filefrom fileto , git rm filefrom ,git add fileto
-然后git commit;
+然后git commit.
