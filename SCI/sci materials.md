@@ -48,8 +48,6 @@
 #### Access to Internet
 #### Popularity of Wechat
 
-
-
 ---
 ## Discussion
 With rapid development of Internet technology, SM becomes an important source of health information.(St Louis, C. and Zorlu, G. Can Twitter predict disease outbreaks?. BMJ. 2012; 344: e2353)
