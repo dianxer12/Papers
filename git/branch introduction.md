@@ -8,7 +8,15 @@
 在checkout不同的branch之后，再进行commit, git会生成不同的文件版本。见图1
 ![alt](./branch_introduction_1.png)
 
+## Git merge
+merge的基本流程
+1. 新建一个Branch并切换到该Branch  git checkout -b newbranch
+2. 做必要的修改
+3. 提交修改到新的Branch  git commit -a -m 'finish updating'
+4. 切换到原Branch  git checkout master
+5. 合并修改的内容  get merge newbranch. 
 
+如果没有任何冲突，git会自动merge；如果有文件冲突，需要人工干预。
 
 ## Git remote
 Git是一个分布式的版本控制系统，所有的内容在服务器上和本地均有备份，假设从服务器上git clone之后，就会将内容均拷贝到本地，并且
