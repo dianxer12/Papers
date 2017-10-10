@@ -6,7 +6,7 @@
 
 + 直接使用**git log** ,显示的信息比较简单，就是编号，作者，提交日期
 + 加-p参数，会显示具体的修改信息(同前一个版本比较)，p参数后面可以加 -数字，例如**git log -p -2** ，显示最近的2条commits信息，并显示修改的具体内容，其实就是git diff
-+ 鉴于**-p**的输出内容较多，所以又提供了**--pretty**参数来格式化输出内容，例如**git log --pretty="%an %h"**
++ 鉴于 **-p** 的输出内容较多，所以又提供了 **--pretty** 参数来格式化输出内容，例如**git log --pretty="%an %h"**
 + 可以给**git log** 加各种过滤，例如指定搜索某字符串 **git log -S funciton_name**,或者 最近两个星期的 **git log --since=2.weeks**
 或者指定搜索路径或文件 **git log -- filename(directory)**
 
