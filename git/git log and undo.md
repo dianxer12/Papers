@@ -11,6 +11,21 @@
 或者指定搜索路径或文件 **git log -- filename(directory)**
 
 ## git commit --amend  更改已提交的内容
+如果错误的提交了或者修改了文件，想要反悔。就到了看这段的时候
+1. **git commit --amend** 覆盖上一次的提交，例如 
+```shell
+git commit -m 'first commit'
+git add anotherfile
+git commit --amend
+```
+或者
+```shell
+git commit -m 'first commit'
+git commit -m 'update commit message'
+```
+更改commit 的消息。  看上面的命令，执行了两次的commit,但是使用git status你会发现只有一个commit，第二次的commit直接覆盖了第一次的commit
 
+2. git reset head <file>  如果误操作将一个不需要的文件add了，进入stage状态
+3. git checkout -- <file>, 如果误修改了一个文件，使用该命令可以将文件恢复到上一次commit的版本
 
 
