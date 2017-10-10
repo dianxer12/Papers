@@ -6,7 +6,7 @@
 **git checkout branchname** 切换branch，在git中有一个特殊的指针**header** ，默认情况下指向master branch(git命令的默认生成的branch)，切换后，header指针指向新的branch。
 
 在checkout不同的branch之后，再进行commit, git会生成不同的文件版本。见图1
-![](1.png)
+![alt](./branch_introduction_1.png)
 
 
 
