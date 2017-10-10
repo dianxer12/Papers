@@ -16,6 +16,12 @@ merge的基本流程
 4. 切换到原Branch  git checkout master
 5. 合并修改的内容  get merge newbranch. 
 
+## Git Branch的一些基本操作
+1. 显示所有的Branch git branch。 当前Branch有*表示
+2. 显示所有Branch以及最后一次提交时间 git branch -v
+3. 显示所有已经merge或者还没有merge到当前Branch的Branch  git branch --merged  || git branch --no-merged
+4. 删除branch  git branch -d branchname
+
 如果没有任何冲突，git会自动merge；如果有文件冲突，需要人工干预。
 
 ## Git remote
