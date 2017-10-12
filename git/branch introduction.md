@@ -15,6 +15,7 @@ merge的基本流程
 3. 提交修改到新的Branch  git commit -a -m 'finish updating'
 4. 切换到原Branch  git checkout master
 5. 合并修改的内容  get merge newbranch. 
+如果没有任何冲突，git会自动merge；如果有文件冲突，需要人工干预。
 
 ## Git Branch的一些基本操作
 1. 显示所有的Branch git branch。 当前Branch有*表示
@@ -22,7 +23,7 @@ merge的基本流程
 3. 显示所有已经merge或者还没有merge到当前Branch的Branch  git branch --merged  || git branch --no-merged
 4. 删除branch  git branch -d branchname
 
-如果没有任何冲突，git会自动merge；如果有文件冲突，需要人工干预。
+
 
 ## Git remote
 Git是一个分布式的版本控制系统，所有的内容在服务器上和本地均有备份，假设从服务器上git clone之后，就会将内容均拷贝到本地，并且
